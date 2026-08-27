@@ -1,13 +1,15 @@
-const form = document.getElementById("task-form");
-const list = document.getElementById("task-list");
-const input = document.getElementById("task-input");
-form.addEventListener("submit", function(event) {
-    console.log("form submitted!");
-  event.preventDefault();
-  const taskText = input.value;
-  console.log(taskText);
-  const li = document.createElement("li");
-  li.textContent = taskText;
-  list.appendChild(li);
-  input.value = "";
-});
+const quotes = [
+    "Code is like humor, if you have to explain it,its bad!
+    "To live doesnt mean you're alive",
+    "I will retire with the crown",
+    "No im not lucky im blesses"
+];
+
+const quoteText = document.getElementById("quote");
+const quoteBtn = document.getElementById("quoteBtn");
+
+for(let i =0; i < quotes.length; i++) {
+    console.log(quotes[i]);
+}
+
+quoteText.textContent = quotes[0];
