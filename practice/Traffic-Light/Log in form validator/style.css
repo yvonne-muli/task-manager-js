@@ -1,0 +1,20 @@
+
+h2 {
+    color:purple;
+}
+form {
+    width 300 px;
+    padding:20px;
+    border:10px solid pink;
+}
+input {
+    padding:8px;
+    margin-bottom:10px;
+    width:90%
+}
+#loginBtn {
+    padding:8px 16px;
+    background-color:yellow;
+    color:black;
+    border: none;
+}
