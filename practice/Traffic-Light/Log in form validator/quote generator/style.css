@@ -1,0 +1,14 @@
+#displayQuote {
+    font-style:italic;
+    font-size:12;
+}
+
+#newQuoteBtn {
+    padding:10px;
+    background-color:pink;
+}
+
+body {
+    padding:20px;
+    text-align:center;
+}
